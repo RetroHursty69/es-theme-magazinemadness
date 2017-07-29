@@ -1,0 +1,153 @@
+<!--
+theme name:     Steampunk
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>.02 0.03</pos>
+        <size>0.95 0.890</size>
+        <logoScale>1.5</logoScale>
+        <logoSize>0.3 0.5</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>
+      </carousel>
+
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundmenu.png</path>
+      </image>
+
+      <text name="systemInfo">
+         <pos>0.3 0.940</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+	 <fontSize>0.03</fontSize>
+      </text>
+   </view>
+</feature>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>777777</textColor>
+         <iconColor>77777750</iconColor>
+      </helpsystem>
+   </view>
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.1875 0.175</pos>
+         <size>0.32 0.7</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>e22828</selectedColor>
+         <primaryColor>000000</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>center</alignment>
+      </textlist>
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>1.5 1.125</pos>
+         <maxSize>0.14 0.14</maxSize>
+      </image>
+   </view>
+
+   <view name="basic,detailed,video">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+         <fontSize>0.0195</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>0.04 1.5</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <rating name="md_rating">
+         <pos>0.04 1.525</pos>
+         <size>0.005 0.025</size>
+         <filledPath>./_inc/images/star_filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.04 1.55</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_players">
+         <pos>0.04 1.575</pos>
+         <size>0.0375 0.025</size>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.2 1.5</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.2 1.525</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.2 1.55</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.2 1.575</pos>
+         <size>0.1 0.025</size>
+      </text>
+      <text name="md_description">
+         <pos>0.04 1.625</pos>
+         <size>0.35 0.275</size>
+         <color>FFFFFF</color>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.285 0.28</pos>
+         <size>0.25 0.235</size>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>.5 .5</origin>
+         <pos>0.73 0.425</pos>
+         <maxSize>0.135 0.205</maxSize>
+      </image>
+      <image name="md_marquee">
+         <pos>0.66 0.135</pos>
+         <origin>0 0</origin>
+         <maxSize>0.2 0.2</maxSize>
+      </image>
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>1.5 1.125</pos>
+         <maxSize>0.14 0.14</maxSize>
+      </image>
+   </view>
+
+   <view name="video">
+      <image name="md_marquee">
+         <pos>0.66 0.135</pos>
+         <origin>0 0</origin>
+         <maxSize>0.14 0.14</maxSize>
+      </image>
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>1.5 1.125</pos>
+         <maxSize>0.14 0.14</maxSize>
+      </image>
+   </view>
+   
+</theme>
