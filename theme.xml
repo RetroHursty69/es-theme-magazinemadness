@@ -50,9 +50,9 @@ version         1.0
          <selectorColor>1c1c1c00</selectorColor>
          <selectedColor>e22828</selectedColor>
          <primaryColor>000000</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
+         <secondaryColor>808080</secondaryColor>
          <fontPath>./_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.02</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound></scrollSound>
          <alignment>center</alignment>
